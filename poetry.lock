@@ -1,15 +1,27 @@
 [[package]]
-name = "svg-to-gcode"
-version = "1.5.4"
-description = "The definitive NPM module to construct gcode from svg files."
 category = "main"
+description = "Python Serial Port Extension"
+name = "pyserial"
+optional = false
+python-versions = "*"
+version = "3.5"
+
+[package.extras]
+cp2110 = ["hidapi"]
+
+[[package]]
+category = "main"
+description = "The definitive NPM module to construct gcode from svg files."
+name = "svg-to-gcode"
 optional = false
 python-versions = ">=3.6"
+version = "1.5.4"
 
 [metadata]
-lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "dd5d3e69be220fb57502510d2c4c434bca0898fd15a2e13ec316be846cd98feb"
+content-hash = "84f0ebc93974c5b301488f7f7ab7913e8b513ad80b47c52e63ee6e20b572e315"
+lock-version = "1.0"
+python-versions = "^3.8"
 
 [metadata.files]
+pyserial = []
 svg-to-gcode = []
