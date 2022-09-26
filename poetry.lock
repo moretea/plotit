@@ -1,0 +1,15 @@
+[[package]]
+name = "svg-to-gcode"
+version = "1.5.4"
+description = "The definitive NPM module to construct gcode from svg files."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "dd5d3e69be220fb57502510d2c4c434bca0898fd15a2e13ec316be846cd98feb"
+
+[metadata.files]
+svg-to-gcode = []
